@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <!-- Google tag (gtag.js) — GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQTL9FJ3RC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-RQTL9FJ3RC');
+  </script>
+
+  <!-- Microsoft Clarity — heatmaps + session recordings -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "wlx78oc3t0");
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="منصة الأزل التعليمية — نخبة كادر الأزل ومنهجٌ مُجرَّب منذ 2010 في تطبيقٍ واحد. حمّل التطبيق من Google Play و App Store.">
+  <meta name="theme-color" content="#100051">
+  <title>منصة الأزل التعليمية — خيار الطالب والأهل</title>
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="منصة الأزل التعليمية">
+  <meta property="og:description" content="نخبة كادر الأزل ومنهجٌ مُجرَّب منذ 2010 في تطبيقٍ واحد.">
+  <meta property="og:image" content="public/scenes/منصة الأزل/Home-Guest.webp">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="public/SVG/MAIN SHAPE TEAL.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preload" href="fonts/DINNextLTArabic-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="fonts/DINNextLTArabic-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="public/alazal-new-logo-w.png" as="image">
+  <link rel="preload" as="image" href="public/scenes/منصة الأزل/Home-Guest.webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main">تخطى إلى المحتوى</a>
+
+  <!-- Top bar — centered logo, split nav (different from the group site). -->
+  <header class="topbar" id="topbar">
+    <div class="topbar__row">
+      <button class="topbar__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="فتح القائمة">
+        <span></span><span></span><span></span>
+      </button>
+      <a href="#home" class="topbar__logo" aria-label="الصفحة الرئيسية لمنصة الأزل">
+        <img src="public/alazal-new-logo-w.png" alt="منصة الأزل" width="160" height="56">
+      </a>
+      <a href="#download" class="topbar__cta" data-cta="topbar_download">
+        <span>حمّل الآن</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v14m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+      </a>
+    </div>
+    <nav class="topbar__nav" aria-label="التنقل الرئيسي">
+      <a href="#home">الرئيسية</a>
+      <a href="#legacy">القيمة العلمية</a>
+      <a href="#download">حمّل الآن</a>
+      <a href="#teach">انضم كمُدرّس</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+    <div class="topbar__menu" id="navMenu" hidden>
+      <a href="#home">الرئيسية</a>
+      <a href="#legacy">القيمة العلمية</a>
+      <a href="#download">حمّل الآن</a>
+      <a href="#teach">انضم كمُدرّس</a>
+      <a href="#contact">تواصل</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO — single phone mockup, floating glass chips around it. -->
+    <section id="home" class="hero" aria-labelledby="heroTitle">
+      <div class="hero__aurora" aria-hidden="true">
+        <span class="hero__blob hero__blob--a"></span>
+        <span class="hero__blob hero__blob--b"></span>
+        <span class="hero__blob hero__blob--c"></span>
+      </div>
+      <div class="hero__grid" aria-hidden="true"></div>
+
+      <div class="hero__inner container">
+        <h1 id="heroTitle" class="hero__title">
+          منصة <span class="accent">الأزل</span> التعليمية
+        </h1>
+        <p class="hero__tagline" aria-label="هاشتاغ خيار الطالب والأهل">
+          <span class="hero__tagline-hash">#</span>خيار_الطالب_والأهل
+        </p>
+
+        <div class="hero__stage" aria-hidden="true">
+          <span class="float-chip float-chip--1" style="--d:0s">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 13 4 4L19 7"/></svg>
+            نتيجة فورية
+          </span>
+          <span class="float-chip float-chip--2" style="--d:1.2s">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v12H4Zm6 16h4M12 17v4"/><path d="m10 9 5 3-5 3Z" stroke-linejoin="round"/></svg>
+            محاضرات HD
+          </span>
+          <span class="float-chip float-chip--3" style="--d:0.6s">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V11l9-7 9 7v10H3Z"/></svg>
+            +16 سنة خبرة
+          </span>
+          <span class="float-chip float-chip--4" style="--d:1.8s">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a2 2 0 0 1 2-2h10l4 4v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/></svg>
+            ملازم PDF
+          </span>
+
+          <div class="phone phone--hero">
+            <div class="phone__notch"></div>
+            <img class="phone__screen is-on" src="public/scenes/منصة الأزل/Home-Guest.webp" alt="" data-i="0">
+            <img class="phone__screen" src="public/scenes/منصة الأزل/Media Player بالطول.webp" alt="" data-i="1">
+          </div>
+          <div class="phone__shadow"></div>
+        </div>
+
+        <div class="hero__stores">
+          <a class="store-btn store-btn--google"
+             href="https://play.google.com/store/apps/details?id=com.Alazal.Platform&hl=ar"
+             target="_blank" rel="noopener"
+             data-cta="hero_google_play"
+             aria-label="حمّل من Google Play">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="store-btn__glyph">
+              <path fill="#06ffac" d="M3.6 1.84c-.36.34-.57.86-.57 1.55v17.21c0 .69.21 1.21.57 1.55l.06.06 9.65-9.65v-.23L3.66 1.78l-.06.06z"/>
+              <path fill="#06ffac" opacity="0.85" d="m13.31 12.79-3.22 3.22.07.04 3.83 2.18c1.09.62 1.99.13 1.99-1.09 0 0 0-.01.01-.01l-2.68-4.34z"/>
+              <path fill="#06ffac" opacity="0.7" d="m13.31 11.21 2.68-4.34c0-.01-.01-.01-.01-.02 0-1.22-.9-1.71-1.99-1.09l-3.83 2.18-.07.04 3.22 3.23z"/>
+              <path fill="#06ffac" opacity="0.55" d="M3.66 22.16c.43.45 1.13.5 1.93.05l8.78-4.99-2.97-2.97-7.74 7.91z"/>
+              <path fill="#06ffac" opacity="0.55" d="M3.66 1.84 11.4 9.75l2.97-2.97L5.59 1.79c-.8-.45-1.5-.4-1.93.05z"/>
+            </svg>
+            <div class="store-btn__text">
+              <span class="store-btn__sub">حمّل من</span>
+              <span class="store-btn__main">Google Play</span>
+            </div>
+          </a>
+
+          <a class="store-btn store-btn--apple js-coming-soon"
+             href="#"
+             role="button"
+             data-cta="hero_app_store"
+             aria-label="حمّل من App Store — قريباً">
+            <svg viewBox="0 0 24 24" aria-hidden="true" class="store-btn__glyph">
+              <path fill="#06ffac" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+            </svg>
+            <div class="store-btn__text">
+              <span class="store-btn__sub">حمّل من</span>
+              <span class="store-btn__main">App Store</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Static brand strip — no motion. -->
+    <div class="brandstrip" aria-label="ركائز منصة الأزل">
+      <div class="container">
+        <ul class="brandstrip__list" role="list">
+          <li><i></i><span>إرثٌ منذ 2010</span></li>
+          <li><i></i><span>نخبة الأساتذة</span></li>
+          <li><i></i><span>منهجٌ مُجرَّب</span></li>
+          <li><i></i><span>التزامٌ تام</span></li>
+          <li><i></i><span>#خيار_الطالب_والأهل</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- LEGACY / FEATURES — academic strength + Alazal heritage. -->
+    <section id="legacy" class="legacy" aria-labelledby="legacyTitle">
+      <div class="container">
+        <header class="section__header">
+          <p class="eyebrow">القيمة العلمية</p>
+          <h2 id="legacyTitle">إرثٌ يُترجم إلى تطبيق</h2>
+          <p class="section__lede">
+            ما يميّز المنصة ليس التقنية وحدها — بل الجوهر الأكاديمي الذي تُجسّده. خلاصة 16 عاماً من
+            صناعة المتفوقين في معهد الأزل، مكثّفةً في تطبيق على هاتفك.
+          </p>
+        </header>
+
+        <div class="legacy__grid">
+          <article class="legacy-card">
+            <span class="legacy-card__num" aria-hidden="true">01</span>
+            <h3>إرثٌ أكاديمي منذ 2010</h3>
+            <p>
+              المنصة هي الذراع الرقمية لمجموعة الأزل التعليمية، التي تُخرّج طلبة المراحل الإعدادية
+              منذ ست عشرة سنة، وتربّعت في الكاظمية على قمة المعاهد الأهلية بفارقٍ شاسع عن المنافسين.
+            </p>
+          </article>
+
+          <article class="legacy-card">
+            <span class="legacy-card__num" aria-hidden="true">02</span>
+            <h3>نخبةٌ من المُدرّسين</h3>
+            <p>
+              كلّ أستاذٍ على المنصة هو من كادر الأزل أو ممّن تمّ اختيارهم وفق المعايير ذاتها:
+              خبرةٌ ميدانية حقيقية، قدرةٌ على إيصال المعلومة، وأرشيفٌ من الطلبة الناجحين بمعدلاتٍ
+              عالية وأوائل وزاريين.
+            </p>
+          </article>
+
+          <article class="legacy-card">
+            <span class="legacy-card__num" aria-hidden="true">03</span>
+            <h3>منهجٌ مُجرَّب لا تجريبي</h3>
+            <p>
+              المحاضرات ليست ارتجالية ولا تجارب على الهواء — هي نسخةٌ رقمية من المنهج الذي أوصل آلاف
+              الطلبة إلى التفوّق في القاعات منذ 2010، بصياغةٍ بصرية ولفظية تناسب الجيل الحالي.
+            </p>
+          </article>
+
+          <article class="legacy-card">
+            <span class="legacy-card__num" aria-hidden="true">04</span>
+            <h3>التزامٌ تام بالموعد والمحتوى</h3>
+            <p>
+              التحديث الدوري للمحتوى، الالتزام بمواعيد إطلاق المواد، والاستجابة السريعة لاستفسارات
+              الطلبة — هذه ليست ميزات ترويجية، بل أخلاقيات مهنية ورثناها من معهد الأزل وانتقلت كما هي
+              إلى المنصة.
+            </p>
+          </article>
+
+          <article class="legacy-card">
+            <span class="legacy-card__num" aria-hidden="true">05</span>
+            <h3>الأمانة العلمية فوق كلّ اعتبار</h3>
+            <p>
+              المحتوى الأكاديمي يُقدَّم بأعلى درجات الدقة. لا اختصارات تخلّ بالمنهج، ولا حشوٌ يُربك
+              الطالب — فقط ما يحتاجه ليفهم ويتفوّق، بصياغةٍ تحترم وقته وعقله.
+            </p>
+          </article>
+
+          <article class="legacy-card">
+            <span class="legacy-card__num" aria-hidden="true">06</span>
+            <h3>أفضليّةٌ موثَّقة بالنتائج</h3>
+            <p>
+              ما تحصل عليه على المنصة هو ذات المحتوى الذي يدفع طلبةُ القاعات الحضورية أضعافَ ثمنه —
+              بنفس المُدرّسين، نفس الخطّة، ونفس الصرامة الأكاديمية، لكن في يدك أينما كنت.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD CTA -->
+    <section id="download" class="download" aria-labelledby="downloadTitle">
+      <div class="container">
+        <div class="download__panel">
+          <header class="section__header">
+            <p class="eyebrow">حمّل التطبيق</p>
+            <h2 id="downloadTitle">ابدأ رحلتك مع الأزل.. اليوم.</h2>
+            <p class="section__lede">حمّل التطبيق مجاناً، وسجّل حسابك خلال دقيقة لتدخل الكورس الأول.</p>
+          </header>
+
+          <div class="download__grid">
+            <a class="store-btn store-btn--google"
+               href="https://play.google.com/store/apps/details?id=com.Alazal.Platform&hl=ar"
+               target="_blank" rel="noopener"
+               data-cta="download_google_play"
+               aria-label="حمّل من Google Play">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="store-btn__glyph">
+                <path fill="#06ffac" d="M3.6 1.84c-.36.34-.57.86-.57 1.55v17.21c0 .69.21 1.21.57 1.55l.06.06 9.65-9.65v-.23L3.66 1.78l-.06.06z"/>
+                <path fill="#06ffac" opacity="0.85" d="m13.31 12.79-3.22 3.22.07.04 3.83 2.18c1.09.62 1.99.13 1.99-1.09 0 0 0-.01.01-.01l-2.68-4.34z"/>
+                <path fill="#06ffac" opacity="0.7" d="m13.31 11.21 2.68-4.34c0-.01-.01-.01-.01-.02 0-1.22-.9-1.71-1.99-1.09l-3.83 2.18-.07.04 3.22 3.23z"/>
+                <path fill="#06ffac" opacity="0.55" d="M3.66 22.16c.43.45 1.13.5 1.93.05l8.78-4.99-2.97-2.97-7.74 7.91z"/>
+                <path fill="#06ffac" opacity="0.55" d="M3.66 1.84 11.4 9.75l2.97-2.97L5.59 1.79c-.8-.45-1.5-.4-1.93.05z"/>
+              </svg>
+              <div class="store-btn__text">
+                <span class="store-btn__sub">حمّل من</span>
+                <span class="store-btn__main">Google Play</span>
+              </div>
+            </a>
+
+            <a class="store-btn store-btn--apple js-coming-soon"
+               href="#"
+               role="button"
+               data-cta="download_app_store"
+               aria-label="حمّل من App Store — قريباً">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="store-btn__glyph">
+                <path fill="#06ffac" d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+              </svg>
+              <div class="store-btn__text">
+                <span class="store-btn__sub">حمّل من</span>
+                <span class="store-btn__main">App Store</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TEACHERS CTA -->
+    <section id="teach" class="teach" aria-labelledby="teachTitle">
+      <div class="container">
+        <div class="teach__inner">
+          <header class="section__header">
+            <p class="eyebrow">للمُدرّسين</p>
+            <h2 id="teachTitle">أنت مُدرّس متميّز؟ كادر المنصة المقبل قد يكون أنت.</h2>
+            <p class="section__lede">
+              نبني فريق المرحلة القادمة من كوادر المنصة. إن كنتَ تمتلك الخبرة والنتائج، عبّئ نموذج
+              الاهتمام وسنتواصل معك.
+            </p>
+          </header>
+
+          <div class="teach__cta">
+            <a class="btn btn--primary"
+               href="https://forms.gle/DC6Yr66FpBGTirv19"
+               target="_blank" rel="noopener"
+               data-cta="teacher_interest"
+               id="teacherInterestLink">
+              عبّر عن اهتمامك
+            </a>
+          </div>
+
+          <ul class="teach__perks" role="list">
+            <li>
+              <span class="teach__perk-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c2.5 4 6.5 6 9 6s6.5-2 9-6c-2.5-4-6.5-6-9-6S5.5 8 3 12Z"/><circle cx="12" cy="12" r="2.5"/></svg>
+              </span>
+              <div>
+                <h4>حضور رقمي واسع</h4>
+                <p>وصولٌ إلى آلاف الطلبة في عموم العراق.</p>
+              </div>
+            </li>
+            <li>
+              <span class="teach__perk-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M5 6c0-2 3-3 7-3s7 1 7 3-3 3-7 3-7-1-7-3Zm0 0v12c0 2 3 3 7 3s7-1 7-3V6"/></svg>
+              </span>
+              <div>
+                <h4>عوائد عادلة</h4>
+                <p>نظام مشاركة بالعائدات على كلّ اشتراك يولّده كورسك.</p>
+              </div>
+            </li>
+            <li>
+              <span class="teach__perk-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17 20h5v-2a4 4 0 0 0-3-3.87M9 20H4v-2a4 4 0 0 1 3-3.87m6-6a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm6 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>
+              </span>
+              <div>
+                <h4>نخبةٌ من الزملاء</h4>
+                <p>تُدرّس بجانب أبرز كوادر الأزل وأسماءٍ أكاديميةٍ معروفةٍ في الوسط الدراسي.</p>
+              </div>
+            </li>
+            <li>
+              <span class="teach__perk-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V11l9-7 9 7v10H3Z"/><path d="M9 21v-6h6v6"/></svg>
+              </span>
+              <div>
+                <h4>دعم اسم الأزل</h4>
+                <p>هويةُ مؤسسةٍ تعليمية راسخةٍ منذ 2010 تقف خلف اسمك.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="footer" aria-labelledby="footerTitle">
+    <div class="container">
+      <h2 id="footerTitle" class="visually-hidden">تواصل مع منصة الأزل التعليمية</h2>
+
+      <div class="footer__top">
+        <div class="footer__brand">
+          <img src="public/alazal-new-logo-w.png" alt="منصة الأزل" width="180" height="64">
+          <p>الذراع الرقمية لمجموعة الأزل التعليمية. منصةٌ عراقية تنقل بيئة الأزل الحاضنة للتفوّق من قاعات الكاظمية إلى شاشة الهاتف الذكي.</p>
+          <p class="footer__tag">#خيار_الطالب_والأهل</p>
+        </div>
+
+        <div class="footer__contact">
+          <h3>تواصل معنا</h3>
+          <a class="footer__phone" href="tel:07818041198" data-cta="footer_phone_call">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            <span>07818041198</span>
+          </a>
+          <ul class="footer__socials" id="footerSocials" role="list">
+            <!-- populated by script.js -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 منصة الأزل التعليمية. جميع الحقوق محفوظة.</p>
+        <p class="footer__shaar">#خيار_الطالب_والأهل</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Snackbar — populated/animated by script.js -->
+  <div class="snackbar" id="snackbar" role="status" aria-live="polite" aria-hidden="true">
+    <span class="snackbar__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+    </span>
+    <span class="snackbar__msg" id="snackbarMsg">سيتوفّر التطبيق على App Store قريباً.</span>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
