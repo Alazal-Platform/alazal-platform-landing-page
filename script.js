@@ -99,34 +99,6 @@
   }
 
   /* ============================================================
-     "Coming soon" snackbar — used by App Store buttons until the iOS
-     build is published. Auto-dismisses; ARIA live so screen readers
-     announce it.
-     ============================================================ */
-  const snackbarEl = document.getElementById('snackbar');
-  const snackbarMsgEl = document.getElementById('snackbarMsg');
-  let snackbarTimer = null;
-
-  const showSnackbar = (msg, ms = 3600) => {
-    if (!snackbarEl) return;
-    if (msg && snackbarMsgEl) snackbarMsgEl.textContent = msg;
-    snackbarEl.classList.add('is-open');
-    snackbarEl.setAttribute('aria-hidden', 'false');
-    if (snackbarTimer) clearTimeout(snackbarTimer);
-    snackbarTimer = setTimeout(() => {
-      snackbarEl.classList.remove('is-open');
-      snackbarEl.setAttribute('aria-hidden', 'true');
-    }, ms);
-  };
-
-  document.querySelectorAll('.js-coming-soon').forEach(el => {
-    el.addEventListener('click', (e) => {
-      e.preventDefault();
-      showSnackbar('سيتوفّر التطبيق على App Store قريباً.');
-    });
-  });
-
-  /* ============================================================
      CTA tracking — fire GA4/Clarity events on data-cta clicks.
      `generate_lead` fires for the high-intent set: store downloads,
      phone calls, WhatsApp, and the teacher interest form. Other CTAs

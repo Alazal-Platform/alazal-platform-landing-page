@@ -963,65 +963,6 @@ section { position: relative; }
 }
 
 /* ============================================================
-   "Coming Soon" pill + Snackbar (used by .js-coming-soon links)
-   ============================================================ */
-.store-btn.js-coming-soon {
-  position: relative;
-  cursor: pointer;
-}
-.store-btn.js-coming-soon::after {
-  content: "قريباً";
-  position: absolute;
-  top: -8px;
-  inset-inline-end: 12px;
-  padding: 0.15rem 0.6rem;
-  background: var(--teal);
-  color: var(--navy);
-  font-size: 0.7rem;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  border-radius: 999px;
-}
-
-.snackbar {
-  position: fixed;
-  bottom: clamp(1rem, 3vw, 1.75rem);
-  left: 50%;
-  transform: translate(-50%, calc(100% + 1rem));
-  display: inline-flex;
-  align-items: center;
-  gap: 0.7rem;
-  padding: 0.85rem 1.25rem;
-  background: rgba(10, 0, 51, 0.96);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 12px;
-  color: var(--white);
-  font-weight: 600;
-  font-size: 0.95rem;
-  box-shadow: 0 18px 36px -16px rgba(0, 0, 0, 0.6);
-  z-index: 200;
-  opacity: 0;
-  pointer-events: none;
-  transition: transform 360ms var(--ease-spring),
-              opacity 240ms var(--ease-out);
-  max-width: calc(100% - 2rem);
-}
-.snackbar.is-open {
-  transform: translate(-50%, 0);
-  opacity: 1;
-  pointer-events: auto;
-}
-.snackbar__icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 26px; height: 26px;
-  color: var(--teal);
-  flex-shrink: 0;
-}
-.snackbar__icon svg { width: 22px; height: 22px; }
-
-/* ============================================================
    Reduced motion
    ============================================================ */
 @media (prefers-reduced-motion: reduce) {
